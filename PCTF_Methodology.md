@@ -262,7 +262,7 @@ $ sudo iptables-restore < /home/ctf/iptables.bak
 **Check all active TCP connections:**
 
 ```shell
-$ netstat -ant|awk  |grep |sed -e  -e |sort|uniq -c|sort -rn
+$ netstat -ant | awk  | grep | sed -e  -e | sort | uniq -c | sort -rn
 ```
 
 **Check top 10 most visited URL:**
